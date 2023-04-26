@@ -1,4 +1,4 @@
-#### 1. Create an external repository called JSON
+#### 1. Create an external repository called "json"
 ```
 GitHub ➡️ New repository ➡️ Create repository 
 ```
@@ -23,14 +23,14 @@ git commit -m "commit message"
 ```
 git push
 ```
-#### 7. Edit the content of the file “new.json” - write information about yourself (name, age, number of pets, future desired salary). Everything is written in JSON format
+#### 7. Edit the content of the file “new.json” - write information about yourself (name, age, number of pets, future desired salary). Everything is written in json format
 ```
 {
-	"name": "Anna",
-	"surname": "Gvozdeva",
-	"age": 31,
-	"pets": 0,
-	"desired_salary": 100000
+    "name": "Anna",
+    "surname": "Gvozdeva",
+    "age": 31,
+    "pets": 0,
+    "desired_salary": 100000
 }
 ```
 #### 8. Push changes the an external repository
@@ -43,7 +43,7 @@ git push
 ```
 cat > preferences.json
 ```
-#### 10. In the file "preferences.json", add information about your preferences (favorite movie, favorite TVshow, favorite food, favorite season, country you would like to visit). In JSON format
+#### 10. In the file "preferences.json", add information about your preferences (favorite movie, favorite TVshow, favorite food, favorite season, country you would like to visit). In json format
 ```
 {
     "favorite_movie": "Midnight in Paris",
@@ -53,7 +53,7 @@ cat > preferences.json
     "country_to_visit": "China"
 }
 ```
-#### 11. Create a file "skills.json" and add information about the skills that will be studied in the course. In JSON format
+#### 11. Create a file "skills.json" and add information about the skills that will be studied in the course. In json format
 ```
 {
     "skill_1": "QA_Theory",
@@ -83,28 +83,28 @@ git push
 ```
 ➡️ Commit new file
 ```
-#### 15. On the web interface, modify the file "bug_report.json" and add a bug report. In JSON format
+#### 15. On the web interface, modify the file "bug_report.json" and add a bug report. In json format
 ```
 {
-	"ID": "01",
-	"Title": "No notification, in the authorization form, about the successful registration of a new user",
-	"STR": 
-	{
-		      "1. Go to the main page of the site (link)",
-		      "2. Enter data in the  \"Login\" field",
-		      "3. Enter data in the \"Password\" field",
-		      "4. Press \"Register\""
-	},
-	"Environment":
-	{
-		      "OS": "iOS 16.2 iPhone 12 Pro",
-		      "Browser": "Safari 16.2"
-	},
-  	"Actual result": "A message appears, about successful registration",
-	"Expected result": "A user has no understanding of the registration result",
-	"Severity": "Minor",
-	"Priority": "Low",
-	"Attachments": "Link to the image or video with the bug"
+    "ID": "01",
+    "Title": "No notification, in the authorization form, about the successful registration of a new user",
+    "STR": 
+    {
+            "1. Go to the main page of the site (link)",
+            "2. Enter data in the  \"Login\" field",
+            "3. Enter data in the \"Password\" field",
+            "4. Press \"Register\""
+    },
+    "Environment":
+    {
+            "OS": "iOS 16.2 iPhone 12 Pro",
+            "Browser": "Safari 16.2"
+    },
+    "Actual result": "A message appears, about successful registration",
+    "Expected result": "A user has no understanding of the registration result",
+    "Severity": "Minor",
+    "Priority": "Low",
+    "Attachments": "Link to the image or video with the bug"
 }
 ```
 #### 16. Press "Commit changes" and save changes on the web interface
