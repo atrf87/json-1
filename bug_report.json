@@ -1,1 +1,22 @@
+{
+	  "ID": "01",
+	  "Title": "No notification, in the authorization form, about the successful registration of a new user",
+	  "STR": 
+	  {
+		      "1. Go to the main page of the site (link)",
+		      "2. Enter data in the  \"Login\" field",
+		      "3. Enter data in the \"Password\" field",
+		      "4. Press \"Register\""
+	  },
+	  "Enviroment":
+	  {
+		      "OS": "iOS 16.2 iPhone 12 Pro",
+		      "Browser": "Safari 16.2"
+	  },
+  	"Actual result": "A message appears, about successful registration",
+	  "Expected result": "A user has no understanding of the registration result",
+	  "Severity": "Minor",
+	  "Priority": "Low",
+	  "Attachments": "Link to the image or video with the bug"
+}
 
