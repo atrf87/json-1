@@ -66,7 +66,7 @@ cat > preferences.json
     "skill_8": "Android_Studio",
     "skill_9": "Xcode",
     "skill_10": "Terminal",
-    "skill_11": "SQL",
+    "skill_11": "SQL"
 }
 ```
 #### 12. Send two files at once to the external repository 
@@ -90,15 +90,15 @@ git push
     "Title": "No notification, in the authorization form, about the successful registration of a new user",
     "STR": 
     {
-            "1. Go to the main page of the site (link)",
-            "2. Enter data in the  \"Login\" field",
-            "3. Enter data in the \"Password\" field",
-            "4. Press \"Register\""
+        "1. Go to the main page of the site (link)",
+        "2. Enter data in the  \"Login\" field",
+        "3. Enter data in the \"Password\" field",
+        "4. Press \"Register\""
     },
     "Environment":
     {
-            "OS": "iOS 16.2 iPhone 12 Pro",
-            "Browser": "Safari 16.2"
+        "OS": "iOS 16.2 iPhone 12 Pro",
+        "Browser": "Safari 16.2"
     },
     "Actual result": "A message appears, about successful registration",
     "Expected result": "A user has no understanding of the registration result",
